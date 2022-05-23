@@ -22,7 +22,7 @@ li {
 
 a {
 	text-decoration: none;
-	color: #007788;
+	color: #aa3399;
 }
 
 li {
@@ -31,7 +31,7 @@ li {
 
 hr {
 	border: none;
-	border-bottom: 3px dotted #22bbcc;
+	border-bottom: 3px dotted #ee66aa;
 	margin-bottom: 1rem;
 	margin-top: 1rem;
 }
@@ -72,7 +72,7 @@ hr {
 }
 .titulo h1 {
 	margin-block: 2rem;
-	color: #007788;
+	color: #aa3399;
 	font-size: 2.2rem;
 	line-height: 1;
 }
@@ -87,7 +87,7 @@ hr {
 	padding: 0.8rem;
 }
 .bloque.anterior header {
-	background-color: #77aabb;
+	background-color: #ee99bb;
 }
 .anterior .fecha {
 	color: #ffffff;
@@ -95,7 +95,7 @@ hr {
 	font-weight: 400;
 }
 .bloque.próximo header {
-	background-color: #22bbcc;
+	background-color: #ee66aa;
 }
 .bloque header {
 	z-index: 2;
@@ -109,38 +109,4 @@ hr {
 }
 .despedida {
 	margin-bottom: 2rem;
-}
-
-.imágenes {
-	display: flex;
-	height: 20rem;
-	gap: 1rem;
-}
-.imagen {
-	flex: 0 1 20rem;
-	border-radius: 0.5rem;
-	overflow: hidden;
-	position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	gap: 1rem;
-}
-.imagen p {
-	text-align: center;
-}
-.imágenes img {
-	max-height: 100%;
-	position: relative;
-	left: 50%;
-	transform: translateX(-50%);
-}
-
-.imagen_container {
-	height: 15rem;
-	width: 100%;
-	border-radius: 0.5rem;
-	overflow: hidden;
-	/* border: solid black 2px; */
 }
